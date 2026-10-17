@@ -83,7 +83,7 @@ Microservices-Task-main/
 | Gateway products | http://localhost:3003/api/products |
 | Gateway orders | http://localhost:3003/api/orders |
 
-## Troubleshooting
+## Troubleshooting(optional)
 
 - **Port already in use:** Stop the conflicting application or change the host port mapping in `docker-compose.yml`.
 - **Build errors:** Verify that each service has a Dockerfile, `app.js`, and `package.json`.
